@@ -20,8 +20,13 @@ public class JavaConsoleApp {
         System.out.println("Hello Petr!");
         Scanner cl = new Scanner(System.in, "utf-8");
         System.out.print("Write something:");
-        String i = cl.nextLine();
-        System.out.println("This is your text: '" + i + "'");
+        String t = cl.nextLine();
+        System.out.println("This is your text: '" + t + "'");
+        System.out.print("Write integer number:");
+        t = cl.nextLine();
+        int i = Integer.parseInt(t);
+        double d = Math.pow(i, 2);
+        System.out.println(i + "^2 = " + d);
     }
     
 }
