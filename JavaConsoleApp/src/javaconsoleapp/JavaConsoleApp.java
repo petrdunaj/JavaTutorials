@@ -5,7 +5,6 @@
  */
 package javaconsoleapp;
 
-import com.sun.java.swing.plaf.windows.resources.windows;
 import java.util.Scanner;
 /**
  *
