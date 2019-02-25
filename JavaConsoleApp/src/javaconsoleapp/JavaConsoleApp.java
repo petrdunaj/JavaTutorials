@@ -5,6 +5,8 @@
  */
 package javaconsoleapp;
 
+import com.sun.java.swing.plaf.windows.resources.windows;
+import java.util.Scanner;
 /**
  *
  * @author Petr
@@ -17,6 +19,10 @@ public class JavaConsoleApp {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello Petr!");
+        Scanner cl = new Scanner(System.in, "utf-8");
+        System.out.print("Write something:");
+        String i = cl.nextLine();
+        System.out.println("This is your text: '" + i + "'");
     }
     
 }
